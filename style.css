@@ -1,14 +1,22 @@
 img:hover{
-    height: 400px;
-    width: 500px;
+  height: 400px;
+  width: 500px;
+  flex: 1 1 calc(50% - 20px);
 }
 
 img{
-    height: 300px;
-    width: 400px;
-    transition: 1s;
+  height: 300px;
+  width: 400px;
+  transition: 1s;
+  flex: 1 1 calc(50% - 20px);
 }
 
+.img{
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  gap: 20px; 
+}
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -49,6 +57,7 @@ header a:hover {
 section {
   padding: 40px 20px;
   text-align: center;
+  
 }
 
 section h1 {
